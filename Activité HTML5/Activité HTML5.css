@@ -28,10 +28,68 @@ body
 }
 .align
 {
+	padding-right: 25%; 
 	text-align: center ; 
-	text-shadow:  20px 20px 1.5px hotpink ;
+	text-shadow: 0px 10px   10px  #838b75;
 }
 .shadow
 {
 	 text-shadow:  6px 6px 6px white ;
+}
+#big-block 
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+#la-marge
+{
+	margin-top: -10px ;
+	margin-left: -10px;
+	margin-bottom: -200px ; 
+	border :  solid black 3px;
+	background-image: url("images/lisere.jpg") ; 
+	background-repeat: repeat-x repeat-y;
+	min-width: 100px ; 
+	width: 20% ;
+	
+}
+#main-bloc
+{
+	display: flex ; 
+	flex-direction: column ;	
+	justify-content: space-around;
+}
+#header 
+{
+	display: flex ; 
+	justify-content: flex-end;
+
+}
+
+img
+{
+	width: 150px ;
+}
+#big-section
+{
+	display: flex ; 
+	flex-direction: row ;	
+	justify-content: space-between;
+}
+section
+{
+	padding-right: 3% ; 
+	align-items: stretch;
+}
+
+#separateur 
+{
+	margin-right: 15% ;
+	margin-left : 15% ;
+	margin-top: 5% ;
+	margin-bottom: 5% ;  
+	height: 2ex ; 
+	background-image: url('images/separateur.png') ; 
 }

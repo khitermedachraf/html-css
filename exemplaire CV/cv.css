@@ -1,0 +1,45 @@
+@font-face {
+	font-family: 'matrix';
+	src: url('matrix.ttf');
+}
+
+h1 {
+    color: white;
+    text-shadow: green 3px 3px 1px;
+
+}
+    
+p {
+    color: green;
+}
+
+body {
+	font-family: 'matrix';
+	font-size: 1.2em;
+	color: white;
+	background-image: url("fond.jpg");
+	background-repeat: no-repeat;
+	background-position: 190px 180px;
+}
+
+.sidebar {
+	float: left;
+	   width: 170px;
+	   height: 850px;
+	   background: black;
+	   border-radius: 11px;
+	   padding-left: 20px;
+	   margin-top: 0px;
+	   margin-left: 0px;
+}
+
+#conteneur
+{
+	display: flex;
+	padding-top: 110px;
+	padding-left: 33px;
+}
+
+.element {
+	width: 300px;
+}
