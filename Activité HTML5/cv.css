@@ -71,6 +71,8 @@ body
 img
 {
 	width: 150px ;
+	border :  solid 2px black;
+    border-radius: 4px; 
 }
 #big-section
 {
@@ -80,6 +82,7 @@ img
 }
 section
 {
+	margin-right: 75%;
 	padding-right: 3% ; 
 	align-items: stretch;
 }
@@ -92,4 +95,36 @@ section
 	margin-bottom: 5% ;  
 	height: 2ex ; 
 	background-image: url('images/separateur.png') ; 
+}
+@media screen and (max-width: 950px){
+    /* Rédigez vos propriétés CSS ici */
+    #la-marge{
+    	display: none ;
+    }
+    #header {
+    	flex-direction: column ; 
+    	align-items: center ; 
+    	text-align: center;
+    }
+    img{
+	    	border :  solid 2px black;
+	    	border-radius: 8px; 
+
+    }
+    #padding-img{
+    	margin-right: 15%;
+    }
+    #big-section{
+	display: flex ; 
+	flex-direction: column ;	
+	justify-content: space-between;
+	margin: auto;
+	}
+	section{
+		padding-top: 10px;
+		margin-right: auto;
+	}
+	#separateur{
+	height: 0.5ex ; 
+	}
 }
